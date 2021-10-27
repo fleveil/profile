@@ -15,7 +15,8 @@ img {
 
 h1 {
   color: 2a9d8f;
-  font-size: 28px;
+  font-size: 30px;
+  margin-top: 5px;
 }
 
 h2 {
@@ -31,9 +32,14 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .container {
   width: 850px;
-  /* width: 80%; */
+  /* width: 100%; */
   margin: 0 auto;
 }
 
@@ -52,10 +58,16 @@ a {
 
 .btn-orange {
   background-color: f4a261;
-  color: white;
   padding: 10px;
+  width: max-content;
   border-radius: 4px;
+  margin: auto;
+  margin-bottom: 10px;
   font-size: 18px;
+}
+
+.btn-orange > a {
+  color: white;
 }
 
 .btn-orange:hover {
@@ -64,7 +76,7 @@ a {
 
 .btn-media {
   color: lightgrey;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .btn-media:hover {
